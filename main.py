@@ -1,11 +1,12 @@
 import streamlit as st
 
-# Using the current file (main.py) as a placeholder to stop the crashing
-home = st.Page("main.py", title="Home", icon="🏠", default=True)
+# 1. Define pages (Make sure these files exist!)
+# If page_home.py doesn't exist yet, just use page_planner.py twice for now
+home = st.Page("page_home.py", title="Home", icon="🏠", default=True)
+planner = st.Page("page_planner.py", title="Town Planner", icon="🌳")
 
-# ONLY add these lines if the files actually exist on GitHub
-# planner = st.Page("page_planner.py", title="Town Planner", icon="🚲") 
-# tracker = st.Page("page_tracker.py", title="Money", icon="💰")
+# 2. Setup Navigation
+pg = st.navigation([home, planner])
 
-pg = st.navigation([home])
+# 3. Run (Only ONCE at the end)
 pg.run()
