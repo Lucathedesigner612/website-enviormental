@@ -1,16 +1,11 @@
 import streamlit as st
 
-# Define the pages
-home = st.Page("page_home.py", title="Dashboard", icon="🏠", default=True)
-planner = st.Page("page_planner.py", title="Town Planner", icon="🚲") # New Page!
-tracker = st.Page("page_tracker.py", title="Expense Vault", icon="💰")
-vision = st.Page("page_vision.py", title="2026 Vision", icon="🚀")
+# Using the current file (main.py) as a placeholder to stop the crashing
+home = st.Page("main.py", title="Home", icon="🏠", default=True)
 
-# Organize the menu
-pg = st.navigation({
-    "Government Projects": [planner],
-    "Financial Apps": [tracker],
-    "Personal": [home, vision]
-})
+# ONLY add these lines if the files actually exist on GitHub
+# planner = st.Page("page_planner.py", title="Town Planner", icon="🚲") 
+# tracker = st.Page("page_tracker.py", title="Money", icon="💰")
 
+pg = st.navigation([home])
 pg.run()
