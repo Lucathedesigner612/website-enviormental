@@ -12,6 +12,11 @@ col1, col2 = st.columns(2)
 with col1:
     st.error("🚨 Problem: ODZ Encroachment")
     st.write("Building more roads is eating into our land.")
+    
+    st.error("🔊 Problem: Noise & Stress")
+    st.write("Constant traffic congestion in narrow village cores leads to high decibel levels and resident burnout.")
+
+     
 
 with col2:
     # Use 'img_path' here (Make sure the name matches what you defined above!)
