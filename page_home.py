@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("🏙️ Green Transport Redesign: Village of the Future")
-st.write("Town Planner: **Luca G.** | Location: **Dingli/Rabat Area**")
+st.write("Town Planner: **Luca G.** | Location: **No specific location**")
 
 # --- SECTION 1: THE DIAGNOSIS ---
 st.header("1. Current Urban Crisis")
