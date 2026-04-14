@@ -49,6 +49,7 @@ st.divider()
 st.header("3. Visual Impact Map")
 # This is where you would upload your Canva/Google Maps screenshot
 st.info("📍 This is where the biggest problem of malta lays because if this is blocked EVERYWHERE IS BLOCKED!!!")
+st.info("we need to find a way to fix this 🤔💭")
 st.image("https://github.com/Lucathedesigner612/website-enviormental/blob/main/Capture.JPG?raw=true", 
          caption="Example of a 'Green Road' with integrated tram and cycle paths.")
 
