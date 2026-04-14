@@ -17,17 +17,12 @@ with col1:
 
 with col2:
 
-# The link you want to open
-url = "https://www.google.com/maps/@35.8817017,14.4852276,3a,75y,304.02h,87.72t/data=!3m7!1e1!3m5!1sZZndRNNn8ZPZRn_sed8fAg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.2797142157755417%26panoid%3DZZndRNNn8ZPZRn_sed8fAg%26yaw%3D304.02009826192295!7i13312!8i6656!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
 
-# The image you want to show
-img_url = "https://path-to-your-image.jpg"
+st.image("your_photo.jpg", caption="Click below to visit the site")
 
-st.markdown(
-    f'<a href="{url}" target="_blank"><img src="{img_url}" width="100%"></a>',
-    unsafe_allow_html=True
-)
-
+if st.button("🌐 Open External Link"):
+    # This works best if you use a link component or a simple redirect
+    st.write(f"Check it out here: [Click Me]({https://www.google.com/maps/@35.8817017,14.4852276,3a,75y,304.02h,87.72t/data=!3m7!1e1!3m5!1sZZndRNNn8ZPZRn_sed8fAg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.2797142157755417%26panoid%3DZZndRNNn8ZPZRn_sed8fAg%26yaw%3D304.02009826192295!7i13312!8i6656!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D})")
 st.divider()
 
 # --- SECTION 2: THE 3 PROPOSALS ---
