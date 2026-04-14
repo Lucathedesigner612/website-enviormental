@@ -18,7 +18,7 @@ with col1:
 with col2:
     # This acts as your 'Visual Map' placeholder
     st.info("🗺️ Interactive Map Analysis")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Malta_location_map.svg/800px-Malta_location_map.svg.png", 
+    st.image("https://www.google.com/maps/@35.8817017,14.4852276,3a,75y,304.02h,87.72t/data=!3m7!1e1!3m5!1sZZndRNNn8ZPZRn_sed8fAg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.2797142157755417%26panoid%3DZZndRNNn8ZPZRn_sed8fAg%26yaw%3D304.02009826192295!7i13312!8i6656!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D", 
              caption="Current Traffic Bottlenecks in the Village Core")
 
 st.divider()
