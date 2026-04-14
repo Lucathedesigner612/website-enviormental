@@ -23,6 +23,7 @@ else:
 if pages_to_show:
     pg = st.navigation(pages_to_show)
     pg.run()
+
 else:
     st.title("Welcome to Luca's App")
     st.write("Please upload your .py files to GitHub to see the full site.")
