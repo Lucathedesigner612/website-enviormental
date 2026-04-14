@@ -49,7 +49,7 @@ st.divider()
 st.header("3. Visual Impact Map")
 # This is where you would upload your Canva/Google Maps screenshot
 st.info("📍 Plan visualization: Converting arterial roads into Green Belts.")
-st.image("https://images.unsplash.com/photo-1545642199-232690956488?auto=format&fit=crop&q=80&w=1000", 
+st.image("https://github.com/Lucathedesigner612/website-enviormental/blob/main/Capture.JPG?raw=true", 
          caption="Example of a 'Green Road' with integrated tram and cycle paths.")
 
 # --- THE VOTE ---
