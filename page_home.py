@@ -18,7 +18,7 @@ with col1:
 with col2:
 
 
-st.image("your_photo.jpg", caption="Click below to visit the site")
+st.image("https://github.com/Lucathedesigner612/website-enviormental/blob/main/Capture.JPG?raw=true", caption="Click below to visit the site")
 
 if st.button("🌐 Open External Link"):
     # This works best if you use a link component or a simple redirect
