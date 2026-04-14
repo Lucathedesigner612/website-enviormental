@@ -21,7 +21,7 @@ with col2:
 st.divider()
 
 # --- THE PLAN ---
-st.header("2. The 'Luca Plan' for a Greener Malta")
+st.header("2. My plan for a more clean,safe,less blocked country ")
 
 # Proposal 1: The Ferry Link
 with st.expander("🚢 Proposal 1: The Grand Harbour Ferry Extension"):
